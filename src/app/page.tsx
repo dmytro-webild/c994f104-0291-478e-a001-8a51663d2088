@@ -49,7 +49,6 @@ export default function LandingPage() {
           ariaLabel="Hero section showcasing luxury living"
           imagePosition="right"
           fixedMediaHeight={true}
-          useInvertedBackground={false}
         />
       </div>
       <div id="featured-properties" data-section="featured-properties">
@@ -72,7 +71,6 @@ export default function LandingPage() {
       <div id="about-us" data-section="about-us">
         <TextAbout
           title="The Art of Luxury Real Estate"
-          description="At EID Real Estate, we redefine luxury living with unparalleled expertise, unwavering trust, and a commitment to premium service. We connect discerning clients with exclusive properties that embody sophistication and prestige. Our dedicated team ensures a seamless journey from selection to acquisition, making your dream of luxury ownership a tangible reality. Trust in our legacy, invest in your future."
           useInvertedBackground={false}
           ariaLabel="About Us section"
         />
